@@ -26,5 +26,9 @@
         ]
       }
     }
-  ]
+  ],
+  "dynamicUrlToDependencies": {
+    "/": ["./app.component.ts", "./app.module.ts"],
+    "/about": ["./about.component.ts"]
+  }
 }
